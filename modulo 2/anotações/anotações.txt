@@ -1,0 +1,71 @@
+toma ae algumas anotações feitas durante o projeto: 
+
+HTML
+Br = serve para pular uma linha
+Div = serve para agrupar conteúdo.
+Input = entrada de dados, onde o usuário irá digitar. (placeholder = dar nome a este lugar.)
+Label = serve para dar nome, tipo ao input, legenda para um item em uma interface de usuário.
+Button = criar um botão, tipo entrar ou logar. (a href = quando clicar neste botão, ir para outra página html.)
+Ol = lista ordenada (1, 2 ,3...) – (Type = 1, A, a, I, i).
+Li = lista.
+Ul = lista não ordenada. (Type = disc, circle, square).
+Dl = lista de definição (tipo dicionário)
+Dt = seria o título do dl.
+Dd = descrição do título dt.
+A href = links para outros html’s ( target=”_blank”, rel=”external” = abre uma nova aba e relaciona este ato como um ato externo).
+( rel=”next”, rel=”prev”, rel=”nofollow”). (../ = voltar dentro da pasta).
+Em href = download=”local do arquivo”, type=”application/pdf”, “/zip”.
+
+
+CSS
+@charset “UTF-8” = evitar possíveis erros quanto ao estilo de site em navegadores.
+Background-image: linear-gradient = cores como fundo de tela / diversos.
+background-attachment: fixed = caso as cores em gradiente ficarem pequenas, ele completa a tela.
+Use * = para configurações globais, tipo: height: 100%, para o degradê de baixo para cima completo.
+Position: absolute = deixa o objeto totalmente a esquerda e ao topo, tipo uma div.
+para centralizar 100% com o position:
+•	top: 50%
+•	left: 50%
+•	transform: translate(-50%, -50%);
+Padding = distância do objeto da borda.
+Border-radius = arredondamento das pontas.
+Outline: none = remove linhas laterais quando selecionado, tipo input.
+Font-size = tamanho da fonte.
+Div:hover = muda a cor de fundo quando passa o mouse.
+Cursor: pointer = quando passa o mouse, muda o cursor.
+Text-align: center = alinha o texto ao centro.
+Width = alterar largura de algo (tipo deixar botão em 100% do tamanho da div) (eixo x do site).
+Background-repeat: no-repeat = imagem de fundo não irá repetir.
+Background-attachment: fixed = imagem de fundo irá ajustar a tela, tanto para tela pequena quanto para grande.
+Background-size: cover = imagem de fundo irá preencher toda a tela.
+Min-width = largura mínima (site responsivo).
+Max-width = largura máxima (site responsivo).
+Border: 10px solid color = adicionar borda com cores.
+Letter-spacing = espaço entre as letras.
+Text-decoration: underline = decorar o texto… (none = tira sublinhado...)
+Main = igual a div, porém para conteúdos principais e exclusivos.
+Margin: auto = centraliza, tipo div ou main, na tela, tornando site responsivo.
+Box-shadow: 10px 10xp 10xp black = sombrear algo, tipo as divs ou mains.
+Text-shadow = mesma coisa que box-shadow ^^.
+*shorthand: font: italic bolder 3px arial, sans-serif.
+Text-indent: 10px = Vide tag.
+Height = altura.
+Width = largura.
+Display: inline-block = deixa toda a (div) alinhada na horizontal.
+# = para id’s.
+. = para classes.
+: = para subclasses. (pseudo-classes)
+:: = pseudo-elementos.
+Div > p = parágrafo dentro da div.
+Div:hover > p = uma ação para o parágrafo dentro da div.
+Display: none = ocultar algo.
+Display: block = resurgir algo.
+Span = Caixa in-line, tipo div.
+Transition-duration: 1s = transição/animação ao passar o mouse.
+Line-height = espaço entre as linhas, de cima para a de baixo, eixo Y.
+List-style-position: inside = deixar lista dentro e arrumada, em uma div por exemplo.
+Columns: 2 = coloca a lista em colunas, tipo 2 colunas.
+List-style-type = mudar a ícone da lista (emojipedia.org – ‘\2714\00A0\00A0’).
+
+Variáveis no CSS
+:root = para criar variáveis (ex: --cor1: ). (Sempre com ponto e virgula no final)
