@@ -1,0 +1,10 @@
+ANOTAÇÕES MODULO 3:
+
+
+background-size: w h; (altera o tamanho da imagem de fundo)
+
+background-repeat: repeat-y ou repeat-x; (x horizontal e y vertical)
+
+background-repeat: no-repeat; (sem repetição)
+
+background-position: horizontal vertical;
