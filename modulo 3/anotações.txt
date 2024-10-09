@@ -8,3 +8,7 @@ background-repeat: repeat-y ou repeat-x; (x horizontal e y vertical)
 background-repeat: no-repeat; (sem repetição)
 
 background-position: horizontal vertical;
+
+background-size: contain; (altera a imagem para aparecer todo o fundo, criando bordas se preciso)
+
+background-size: cover; (adapta a imagem de acordo a a viewport, podendo cortar a imagem)
