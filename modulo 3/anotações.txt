@@ -14,3 +14,11 @@ background-size: contain; (altera a imagem para aparecer todo o fundo, criando b
 background-size: cover; (adapta a imagem de acordo a a viewport, podendo cortar a imagem)
 
 background short-hand (o background-size não funciona atualmente, necessita colocar separadamente)
+
+
+
+display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
+justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: auto"*/
+align-items: center; /*Alinhamento vertical*/
+
+Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe.
