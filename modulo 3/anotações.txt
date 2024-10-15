@@ -15,6 +15,9 @@ background-size: cover; (adapta a imagem de acordo a a viewport, podendo cortar 
 
 background short-hand (o background-size não funciona atualmente, necessita colocar separadamente)
 
+vertical-align (Alinhamento vertical)
+text-align (Alinhamento horizontal)
+
 
 
 display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
@@ -22,3 +25,4 @@ justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: 
 align-items: center; /*Alinhamento vertical*/
 
 Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe.
+
