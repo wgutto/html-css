@@ -18,6 +18,20 @@ background short-hand (o background-size não funciona atualmente, necessita col
 vertical-align (Alinhamento vertical)
 text-align (Alinhamento horizontal)
 
+table = (tabela como um todo)
+caption = (descrição da tabela)
+thead = (cabeçalho da tabela)
+tbody = (corpo da tabela)
+tfoot = (rodapé da tabela)
+tr = (coluna da tabela)
+th = (titulos da tabela)
+td = (dados tabela/linha)
+
+scopes => row (em linha) - col (em coluna) - rowgroup (grupo em linha) - colgroup (grupo em coluna)
+
+colspan = (expansão em coluna)
+rowspan = (expansão em linha)
+
 
 
 display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
