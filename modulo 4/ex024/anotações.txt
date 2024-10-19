@@ -1,0 +1,3 @@
+EM iFrame, a estilização que será soberana é a da folha de estilo/css.
+
+Parâmetros iFrame: heigth - width - scolling (não é em todos navegadores que funciona)
