@@ -1,3 +1,8 @@
+Assunto iFrame:
 EM iFrame, a estilização que será soberana é a da folha de estilo/css.
 
 Parâmetros iFrame: heigth - width - scolling (não é em todos navegadores que funciona)
+
+referrerpolicy (O atributo referrerpolicy especifica quais informações de referência enviar ao site que esta no iframe.)
+
+sandbox (O atributo sandbox permite um conjunto extra de restrições para o conteúdo do iframe.)
