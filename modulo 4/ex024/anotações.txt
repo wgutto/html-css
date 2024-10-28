@@ -6,3 +6,6 @@ Parâmetros iFrame: heigth - width - scolling (não é em todos navegadores que 
 referrerpolicy (O atributo referrerpolicy especifica quais informações de referência enviar ao site que esta no iframe.)
 
 sandbox (O atributo sandbox permite um conjunto extra de restrições para o conteúdo do iframe.)
+
+Assunto Formulários: 
+a tag "label" serve para correlacionar a palavra para a caixa input, o label vem entre a palavra;
