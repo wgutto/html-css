@@ -9,3 +9,11 @@ sandbox (O atributo sandbox permite um conjunto extra de restrições para o con
 
 Assunto Formulários: 
 a tag "label" serve para correlacionar a palavra para a caixa input, o label vem entre a palavra;
+
+para definir o metódo, use "method";
+
+metódo padrão do form é (get), o outro é o (post) que não mostra os dados na URL;
+
+envio de coisas acima de 300bits/letras, ou algo mais sensível como senhas, usar o metódo POST;
+
+o method "POST" não é uma segurança total, ele só faz os dados não ficar expostos na URL;
