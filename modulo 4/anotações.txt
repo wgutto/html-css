@@ -7,6 +7,10 @@ referrerpolicy (O atributo referrerpolicy especifica quais informações de refe
 
 sandbox (O atributo sandbox permite um conjunto extra de restrições para o conteúdo do iframe.)
 
+
+///////////////////////////////////////////////////////
+
+
 Assunto Formulários: 
 a tag "label" serve para correlacionar a palavra para a caixa input, o label vem entre a palavra;
 
@@ -17,3 +21,5 @@ metódo padrão do form é (get), o outro é o (post) que não mostra os dados n
 envio de coisas acima de 300bits/letras, ou algo mais sensível como senhas, usar o metódo POST;
 
 o method "POST" não é uma segurança total, ele só faz os dados não ficar expostos na URL;
+
+a diferença do input "radio" e "checkbox", é que o radio só permite marcar uma opção (em radio, os "name" que estão dentro do mesmo fieldset tem que ser igual)
