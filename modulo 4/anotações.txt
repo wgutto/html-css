@@ -23,3 +23,16 @@ envio de coisas acima de 300bits/letras, ou algo mais sensível como senhas, usa
 o method "POST" não é uma segurança total, ele só faz os dados não ficar expostos na URL;
 
 a diferença do input "radio" e "checkbox", é que o radio só permite marcar uma opção (em radio, os "name" que estão dentro do mesmo fieldset tem que ser igual)
+
+
+////////////////////////////////////////////////////////
+
+
+Assunto Media Query:
+Para criar um css geral, use (media="all")
+
+Para criar um css para empressora, use (media="print")
+
+Para criar um css com figture para paisagem, use (media="screen and (orientation: landscape)")
+
+Para criar um css com figture para retrato, use (media="screen and (orientation: retrait)")
