@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span onclick="clickMenu()" id="burgher" class="material-symbols-outlined">
+            menu
+            </span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Faq</a></li>
+                <li><a href="#">CEO</a></li>
+                <li><a href="#">SEO</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum delectus provident corporis quibusdam necessitatibus neque id, earum impedit obcaecati aperiam ab et aspernatur at sapiente nulla. Enim repellat possimus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quisquam voluptates veritatis recusandae ducimus laudantium! Neque tempore, dolorem alias ullam vero fuga rerum fugiat amet excepturi minima dolore, quam labore.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore cupiditate minus voluptatibus, qui voluptatum facere voluptate consectetur dolores nobis enim eveniet doloribus libero est quia sint rerum voluptates hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolore velit consectetur similique ut voluptatem provident vel recusandae, exercitationem quod impedit dolor ab quos, perferendis voluptate, natus quidem laudantium.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore cupiditate minus voluptatibus, qui voluptatum facere voluptate consectetur dolores nobis enim eveniet doloribus libero est quia sint rerum voluptates hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolore velit consectetur similique ut voluptatem provident vel recusandae, exercitationem quod impedit dolor ab quos, perferendis voluptate, natus quidem laudantium.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore cupiditate minus voluptatibus, qui voluptatum facere voluptate consectetur dolores nobis enim eveniet doloribus libero est quia sint rerum voluptates hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolore velit consectetur similique ut voluptatem provident vel recusandae, exercitationem quod impedit dolor ab quos, perferendis voluptate, natus quidem laudantium.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
