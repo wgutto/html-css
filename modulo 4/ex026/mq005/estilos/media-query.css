@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media print {
+
+}
+
+@media screen and (min-width: 769px) { /*TELA TABLET*/
+    #burgher {
+        display: none;
+    }
+    menu {
+        display: block;
+        text-align: left;
+    }
+    menu a {
+        border: none;
+    }
+    menu ul li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /*TELA LAPTOPS*/
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) { /*TELA DESKTOP*/
+    
+}
+
+@media screen and (min-width: 1201) { /*TELA TV*/
+    
+}
