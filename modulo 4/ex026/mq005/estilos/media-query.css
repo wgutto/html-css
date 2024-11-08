@@ -12,12 +12,13 @@
         display: block;
         text-align: left;
     }
-    menu a {
-        border: none;
-    }
     menu ul li {
         display: inline-block;
         border: none;
+    }
+
+    main {
+         width: 800px;
     }
 }
 
