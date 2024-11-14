@@ -1,0 +1,16 @@
+Assunto Flexible Box:
+flex-direction: row (direção deitado/linha, esquerda para direita)
+
+flex-direction: row-reverse (direção deitada/linha, direita para esquerda)
+
+flex-direction: column (direção em pe/coluna, de cima para baixo)
+
+flex-direction: column-reverse (direção em pé/coluna, de baixo para cima)
+
+flex-wrap: nowrap (ele não quebra a linha, ele vai achatar o elemento)
+
+flex-wrap: wrap (ele vai quebrar a linha no sentido do croos-axis)
+
+flex-wrap: wrap-reverse (ele vai quebrar a linha no sentido oposto do cross-axis)
+
+flex-flow: {flex-direction} {flex-wrap} (ele é um shorthand que permitir colocar o flex-direction e flex-wrap na mesma linha)
