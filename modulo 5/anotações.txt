@@ -14,3 +14,5 @@ flex-wrap: wrap (ele vai quebrar a linha no sentido do croos-axis)
 flex-wrap: wrap-reverse (ele vai quebrar a linha no sentido oposto do cross-axis)
 
 flex-flow: {flex-direction} {flex-wrap} (ele é um shorthand que permitir colocar o flex-direction e flex-wrap na mesma linha)
+
+justify-content: center (alinha os itens no centro de acordo com o eixo main-axis)
