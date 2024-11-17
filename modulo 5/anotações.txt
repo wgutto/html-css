@@ -19,8 +19,11 @@ Assunto Flexible Box:
 
 - align-items: center (alinha os itens no centro de acordo com o eixo cross-axis)
 
-- align-cotent: (alinha os itens de acordo com o eixo cross-axis, quando estão empacotados)
+- align-content: (alinha os itens de acordo com o eixo cross-axis, quando estão empacotados)
+
+-align-self: center (alinha os itens no centro de acordo com o cross-axis)
 
 -> A w3c recomenda usar flex-flow ao invés de (flex-direction/flex-wrap)
--> Elementos que vão no pai (flex-direction/flex-wrap/flex-flox/justify-content/align-items/align-content)
+-> Elementos que vão no pai/container (flex-direction/flex-wrap/flex-flox/justify-content/align-items/align-content)
+-> Elementos que vão no filho/itens (align-self/order)
 -> O (align-content) só funcionando quando o flex-flow é wrap
