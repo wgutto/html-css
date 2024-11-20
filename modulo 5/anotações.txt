@@ -23,7 +23,14 @@ Assunto Flexible Box:
 
 -align-self: center (alinha os itens no centro de acordo com o cross-axis)
 
+-flex-basis (vai definir a largura dos elementos, porém, irá ser fixa até que o elemento caiba no pai, se não couber o valor definido, ele vai ajustar automaticamente)
+
+-flex-grow: 0 (não pode aumentar o elemento)
+
+-flex-shrink: 0/1(não pode diminuir o elemento/pode diminuir o elemento)
+
 -> A w3c recomenda usar flex-flow ao invés de (flex-direction/flex-wrap)
 -> Elementos que vão no pai/container (flex-direction/flex-wrap/flex-flox/justify-content/align-items/align-content)
--> Elementos que vão no filho/itens (align-self/order)
+-> Elementos que vão no filho/itens (align-self/order/flex-basis/flex-shrink/flex-grow)
 -> O (align-content) só funcionando quando o flex-flow é wrap
+-> Se quiser os elementos filhos totalmente flexiveis, usar (flex-grow: 1/flex-shrink: 1; ) numeros maiores que 1 irão crescer x a mais que a proporção do ultimo elemento
