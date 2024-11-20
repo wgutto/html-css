@@ -29,8 +29,20 @@ Assunto Flexible Box:
 
 -flex-shrink: 0/1(não pode diminuir o elemento/pode diminuir o elemento)
 
+-flex: {flex-grow} + {flex-shrink} + {flex-basis} (shorthand que permite usar os tres comandos em uma só linha)
+
+
+
 -> A w3c recomenda usar flex-flow ao invés de (flex-direction/flex-wrap)
+
 -> Elementos que vão no pai/container (flex-direction/flex-wrap/flex-flox/justify-content/align-items/align-content)
--> Elementos que vão no filho/itens (align-self/order/flex-basis/flex-shrink/flex-grow)
+
+-> Elementos que vão no filho/itens (align-self/order/flex-basis/flex-shrink/flex-grow/flex)
+
 -> O (align-content) só funcionando quando o flex-flow é wrap
+
 -> Se quiser os elementos filhos totalmente flexiveis, usar (flex-grow: 1/flex-shrink: 1; ) numeros maiores que 1 irão crescer x a mais que a proporção do ultimo elemento
+
+-> flex: initial; = flex: 0 1 auto;
+-> flex: none; = flex: 0 0 auto;
+-> flex: auto; = flex: 1 1 auto;
